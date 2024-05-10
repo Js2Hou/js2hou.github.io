@@ -50,7 +50,7 @@ public/
 
 4. 修改 Github 仓库设置，`Setting > Pages > Source`，将 `Source` 修改为 `GitHub Actions`；
 
-5. 仓库中建立文件 `github/workflows/pages.yml`，并填入一下内容（20 行将nodejs版本替换为自己的）：
+5. 仓库中建立文件 `.github/workflows/pages.yml`，并填入一下内容（20 行将nodejs版本替换为自己的）：
 
 ```yml
 name: Pages
