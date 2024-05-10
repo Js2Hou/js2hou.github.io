@@ -16,7 +16,7 @@ inject:
 logo:
   icon: /assets/icon.svg
   title: Js2Hou
-  subtitle: "每个人的独立博客 | Welcome to Js2Hou's world"
+  subtitle: "Welcome to Js2Hou's world | Coupled with LQ"
 menubar:
   items: 
     - id: post
