@@ -4,10 +4,9 @@
 
 # Site
 title: Js2Hou
-subtitle: "Welcome to Js2Hou's world | coupled with LQ"  # 优先级高于 _config.stellar.yml
-description: ''
-keywords:
+subtitle: "Welcome to Js2Hou's world | coupled with LQ" 
 author: Js2Hou
+favicon: /assets/icon.svg
 language:
   - zh-CN
   - en
