@@ -1,7 +1,12 @@
 ---
 robots: 'index,nofollow'
-menu_id: social
+sitemap: false
+menu_id: about
+header: false
+breadcrumb: false
+wiki: about
 title: 关于
+
 h1: ''
 sidebar: [motto, toc]
 comment_title: 来过，就留下您的脚印吧～
@@ -11,8 +16,6 @@ giscus:
   data-mapping: number
   data-term: 22
 comments: true
-breadcrumb: false
-header: false
 indent: true
 ---
 
