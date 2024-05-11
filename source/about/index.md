@@ -18,7 +18,7 @@ comments: true
 indent: true
 ---
 
-{% banner Js2Hou 南京炮兵学院的渣渣硕士毕业生，喜欢爬山、徒步、跑步等各种暴汗的运动。 bg:/assets/banner/nebula.jpg avatar:/assets/icon.svg %}
+{% banner Js2Hou 南京炮兵学院的渣渣硕士毕业生，喜欢爬山、徒步、跑步等各种暴汗的运动。 bg:/assets/banner/nebula.jpg avatar:/assets/husky.jpg %}
 {% endbanner %}
 
 <br>

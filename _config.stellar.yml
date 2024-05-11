@@ -14,8 +14,8 @@ inject:
     - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" media="all" />
 
 logo:
-  icon: /assets/icon.svg
-  title: Js2Hou
+  avatar: '[/assets/husky.jpg](/about/)'
+  title: '[Js2Hou](/)'
   subtitle: "Welcome to Js2Hou's world | Coupled with LQ"
 menubar:
   items: 
