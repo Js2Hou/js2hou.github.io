@@ -1,3 +1,4 @@
+---
 title: 项目介绍
 date: 2013-12-24 17:49:32
 tags:
@@ -6,7 +7,6 @@ tags:
 ## 介绍
 
 这是 js2hou 的博客系统，采用 hexo + stellar + github page 搭建。
-
 
 ## 搭建流程
 
@@ -23,17 +23,16 @@ npm install -g hexo-cli
 ```
 
 ### 创建项目
+
 直接使用 stellar 提供的模板，克隆仓库 `https://github.com/xaoxuu/hexo-theme-stellar-examples/`，终端进入到 `blog` 文件夹，执行 `npm install`，安装相关依赖。
 
 `_config.yml` 是网站的配置信息，可以在此配置大部分参数。
 
 详细说明见 [配置 | Hexo](https://hexo.io/zh-cn/docs/configuration)。
 
-
 ### github 配置
 
 [在 GitHub Pages 上部署 Hexo | Hexo](https://hexo.io/zh-cn/docs/github-pages)
-
 
 1. 建立名为 `<github_user_name>.github.io` 的仓库；
 
@@ -126,6 +125,69 @@ npx hexo deploy
 ```
 
 后三个指令用于本地部署演示，想发布到 github，写完博客直接 push 就可以，GitHub 会自动执行构建。
+
+## 自定义配置
+
+### 自定义头像
+
+需要修改下面几个地方：
+
+1. `_config.stellar.yml` 中，修改 `logo.avatar` 如下所示： 
+
+```yaml
+logo:
+  avatar: '[/assets/husky.jpg](/about/)' # []() 为 markdown 语法，点击头像跳转到 /about/ 页面
+  title: '[Js2Hou](/)'
+  subtitle: "Welcome to Js2Hou's world | Coupled with LQ"
+```
+
+2. `source/about/index.md` 中，修改 banner 处的 avatar 设置：
+
+```
+{% banner Js2Hou 南京炮兵学院的渣渣硕士毕业生，喜欢爬山、徒步、跑步等各种暴汗的运动。 bg:/assets/banner/nebula.jpg avatar:/assets/husky.jpg %}
+```
+
+3. `source/_data/wiki/explore.yml` 中，修改 `logo.icon`：
+
+```yaml
+logo: 
+  icon: /assets/husky.jpg
+  title: '[${config.title}](/)'
+  subtitle: '探索者的笔记本'
+```
+
+### 自定义导航栏
+
+1. `_config.stellar.yml` 中修改 `menubar`，添加或删除内容
+   
+   ```yml
+   menubar:
+   items: 
+    - id: post
+      theme: '#1BCDFC'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+    - id: topic 
+      theme: '#3DC550'
+      icon: solar:notebook-bookmark-bold-duotone
+      title: 专栏
+      url: /topic/
+    - id: explore
+      theme: '#FA6400'
+      icon: solar:planet-bold-duotone
+      title: 探索
+      url: /explore/
+    - id: about
+      theme: '#F44336'
+      icon: solar:aboutme
+      title: 关于我
+      url: /about/
+   ```
+
+2. 新建文件 `source/{NAME}/index.md`，其中 `{NAME}` 对应步骤1 设置的 url 路径
+
+3. `index.md` 文件修改头部区域，`menu_id` 和 `_config.stellar.yml` 中保持一致
 
 ## 参考资料
 
