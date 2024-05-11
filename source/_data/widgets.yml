@@ -12,8 +12,7 @@ starter:
 
 motto:
   layout: markdown
-  title: Motto
-  linklist: # 与 linklist 组件写法相同
-    columns: 1 
-  content: The world is full of lonely people waiting to make the first move.
+  title: '🎉Welcome '
+  content: |
+    The world is full of lonely people waiting to make the first move.
 
