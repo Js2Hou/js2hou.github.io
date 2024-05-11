@@ -3,7 +3,7 @@ robots: 'index,nofollow'
 menu_id: social
 title: 关于
 h1: ''
-sidebar: [recent]
+sidebar: [motto, toc]
 comment_title: 来过，就留下您的脚印吧～
 logo:
   subtitle: js2hou@outlook.com
@@ -20,11 +20,10 @@ indent: true
 {% endbanner %}
 
 <br>
+{% hashtag 博客园 https://www.cnblogs.com/js2hou/ %}
+{% hashtag Github https://github.com/js2hou/  %}
 
-- [博客园](https://www.cnblogs.com/js2hou)
-- [Github](https://github.com/js2hou)
-
-{% quot icon:hashtag 教育背景 %}
+## 教育背景
 
 鄙人于 2017 年在河北参加高考，在千军乱马之中杀入南京炮兵学院学习。本科专业为数学与应用数学，很搞笑，土木工程竟然也在我们学院，所以没几年学院就被拆分了。数学的高深令人望而却步，但失之桑榆收之东隅，那些年逐渐发现自己对于计算机的热爱和在这一方面的天赋，所以保了个研，去往本校计算机学院攻读研究生学位。修行了两年半，2024 年成功出道。
 
@@ -32,15 +31,16 @@ indent: true
 
 研究生的课程被赋予了一些特殊的含义，嗯~，某些老师科研路上的绊脚石，是很好的不去开组会的借口。其实真的很忙，图像分析基础、数据挖掘、人工智能原理、模式识别技术、机器学习、图像特征计算与表示、计算机视觉与图像理解、高等工程数学，这些课程填补了我对计算机视觉领域和人工智能领域的空白认知。想起来不开心的事情，数据挖掘课程有四五个同学借鉴了我的作业，但我 68 分。
 
+## 项目经历
 
-
-{% quot icon:hashtag 项目经历 %}
 - [ ] todo
 
-{% quot icon:hashtag 工作经历 %}
+## 工作经历
+
 - [ ] todo
 
-{% quot icon:hashtag 专业技能 %}
+## 专业技能
+
 - 了解人工智能最新进展，熟练使用Pytorch框架，在ICIG发表小样本图像生成论文一篇
 - 熟练使用 Java、Golang、Python 三门语言，对Java线程池技术和Golang协程技术有一定理解；
 - 熟练使用Linux系统，具备防火墙管理、端口占用检测、Web服务部署、数据库安装部署等经验；
@@ -48,7 +48,8 @@ indent: true
 - 熟悉开发常用工具：SSH、Git、Maven、Tmux、Vim、AWK、Postman、Fiddler等；
 - 英语水平良好，CET6成绩528，经常浏览Github、StackOverFlow等网站，了解新技术变化趋势
 
-{% quot icon:hashtag 获奖经历 %}
+## 获奖经历
+
 - 南京理工大学优秀学生奖学金 x 6（2017-2021）
 - 南京理工大学研究生学业一等奖学金\&二等奖学金（2021-2022）
 - 第十七届五一数学建模竞赛三等奖（2020）

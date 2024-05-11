@@ -9,3 +9,11 @@ starter:
     - icon: solar:code-file-bold-duotone
       title: 查看 Stellar 源码
       url: https://github.com/xaoxuu/hexo-theme-stellar
+
+motto:
+  layout: markdown
+  title: Motto
+  linklist: # 与 linklist 组件写法相同
+    columns: 1 
+  content: The world is full of lonely people waiting to make the first move.
+
