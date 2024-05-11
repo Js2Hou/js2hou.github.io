@@ -53,6 +53,26 @@ site_tree:
 article:
   share: [wechat, weibo, email, link]
 
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: "js2hou/js2hou.github.io" # [在此输入仓库]
+    data-repo-id: "R_kgDOL5Nv0A" # [在此输入仓库 ID]
+    data-category: "Announcements" # [在此输入分类名]
+    data-category-id: "DIC_kwDOL5Nv0M4CfSU7"
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+
 
 style:
   text-align: justify
