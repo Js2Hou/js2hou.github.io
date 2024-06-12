@@ -16,7 +16,7 @@ inject:
 logo:
   avatar: '[/assets/husky.jpg](/about/)'
   title: '[Js2Hou](/)'
-  subtitle: "Welcome to Js2Hou's world | Coupled with LQ"
+  subtitle: "Welcome to Js2Hou's world | Have a nice day~"
 menubar:
   items: 
     - id: post
